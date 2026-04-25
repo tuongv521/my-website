@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Thi Tuong Vi | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area" onclick="navigate('home')">
+            <span class="logo-name serif-font">Nguyen Thi Tuong Vi</span>
+            <span class="logo-sub">Faculty of Advanced Science and Technology,<br>Da Nang University of Science and Technology</span>
+        </div>
+        <nav class="nav-links">
+            <a onclick="navigate('home')" id="nav-home" class="active">Home</a>
+            <a onclick="navigate('about')" id="nav-about">About & Resume</a>
+            <a onclick="navigate('projects')" id="nav-projects">Projects & Activities</a>
+            <a onclick="navigate('contact')" id="nav-contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home" class="page-section active">
+        <div class="home-banner">
+            <img src="1000011697.webp" alt="Tuong Vi" class="home-profile-img">
+            
+            <div class="home-intro">
+                <h1>Nguyen Thi<br>Tuong Vi</h1>
+                <h4>Industrial Informatics Student (PFIEV), DUT</h4>
+                <p>Future Industrial Informatics Engineer — Bridging the hardware world with a software mindset. From Travel App Backends to Solar Power SCADA Systems, I strive for comprehensive technological solutions.</p>
+                <a class="read-all-btn" onclick="navigate('story')">Read My Story</a>
+            </div>
+        </div>
+        
+        <div class="home-gallery">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Tech">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop" alt="Engineering">
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?q=80&w=800&auto=format&fit=crop" alt="Code">
+        </div>
+    </main>
+
+    <main id="story" class="page-section">
+        <div class="page-banner">
+            <h1>My Journey</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="text-content">
+                <div class="content-block">
+                    <h2>Blurring the Lines Between IT and Industry</h2>
+                    <p>As a student in the Excellence Program (PFIEV), I realized early on that the true power of technology lies in combining the flexibility of software with the robustness of hardware. Majoring in Industrial Informatics has given me a comprehensive perspective on automation and system integration.</p>
+                    
+                    <div class="quote-block">
+                        <p><b>"Industrial Informatics Engineer | Coding with logic, Building with passion."</b><br>
+                        Whether it is optimizing a Backend system with Firebase for a mobile application, or designing a SCADA interface to monitor a solar power system, I am always aiming for optimal, practical, and sustainable solutions.</p>
+                    </div>
+
+                    <h2>Deepening Expertise</h2>
+                    <p>Throughout my academic and practical journey, I didn't just stop at "coding". I focused deeply on the architecture and application of industrial communication protocols (Modbus TCP/IP, OPC UA). Furthermore, I have accumulated experience in Digital Signal Processing (DSP) and building secure data flows connected to real-time databases.</p>
+                    <p>My upcoming goal is to apply SCADA and C++ knowledge to renewable energy projects, specifically developing an independent rooftop solar power monitoring system.</p>
+                </div>
+            </div>
+            
+            <img src="1000011697.webp" alt="Story Visual" class="profile-img-large">
+        </div>
+    </main>
+
+    <main id="about" class="page-section">
+        <div class="page-banner">
+            <h1>About & Resume</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="text-content">
+                <div class="content-block">
+                    <h2>Biography</h2>
+                    <p>I am a 22-year-old, 4th-year student majoring in Industrial Informatics within the PFIEV Excellence Program at the Faculty of Advanced Science and Technology (FAST), Da Nang University of Science and Technology. I am currently based in Da Nang and open to new career opportunities.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Education & Awards</h2>
+                    <p><b>2022 - Present | University of Science and Technology (DUT)</b><br>
+                    Major: Industrial Informatics (PFIEV Program)</p>
+                    <ul style="margin-top: 10px;">
+                        <li><b>2023 - 2025:</b> Excellent Student Award (Academic excellence for 2 consecutive years)</li>
+                        <li><b>2024:</b> French DELF B1 Certificate</li>
+                        <li><b>2022:</b> Outstanding Achievement in Studies and Training</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h2>🛠️ Technical Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>Android & Firebase</span><span>85%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>SCADA & Automation</span><span>75%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>PHP & MySQL</span><span>80%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>C++ Programming</span><span>80%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>VHDL & FPGA</span><span>75%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-name"><span>English (TOEIC Target 700)</span><span>70%</span></div>
+                            <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-download">Download Full CV</button>
+            </div>
+            
+            <img src="1000011697.webp" alt="Tuong Vi Portrait" class="profile-img-large">
+        </div>
+    </main>
+
+    <main id="projects" class="page-section">
+        <div class="page-banner">
+            <h1>Experience & Works</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="text-content">
+                <div class="content-block">
+                    <h2>Featured Projects</h2>
+                    <p><b>2026 | Rooftop Solar Power SCADA System</b><br>
+                    <i>Upcoming Project</i><br>
+                    Developing a Supervisory Control and Data Acquisition (SCADA) interface for an independent rooftop solar energy system, optimizing power consumption management.</p>
+                    <br>
+                    <p><b>2026 | TravelApp-GoBuddy</b><br>
+                    <i>Mobile Developer</i><br>
+                    Developed backend architecture using Firebase and designed the UI for a collaborative 4-member team travel application.</p>
+                    <br>
+                    <p><b>2026 | HR Management System</b><br>
+                    <i>Fullstack Developer</i><br>
+                    Developed a secure employee data management tool utilizing PHP and MySQL.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Extracurricular Activities</h2>
+                    <ul>
+                        <li>Active member of the PFIEV Excellence Program.</li>
+                        <li>Participated in Technical Workshops at FAST/DUT.</li>
+                        <li>Contributed to coding challenges on GitHub.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="contact" class="page-section">
+        <div class="page-banner">
+            <h1>Get In Touch</h1>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="text-content">
+                <div class="content-block">
+                    <h2>Contact Information</h2>
+                    <p style="margin-bottom: 25px;">I am always open to discussing technical projects, internship opportunities, or freelance work. Feel free to reach out to me via the channels below.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><b>Email:</b> tuongv521@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span><b>GitHub:</b> github.com/tuongv521</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span><b>LinkedIn:</b> linkedin.com/in/tuongvi</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><b>Address:</b> 08 Ha Van Tinh, Da Nang, Vietnam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
